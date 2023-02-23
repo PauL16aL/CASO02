@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #F4FAFB;
+    min-height: 100vh;
+    font-family: 'Berkshire Swash', sans-serif;
+}
+
+.cabezera h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cabezera h4{
+    text-align: center;
+    margin-top: 40px;
+    color: rgb(116, 115, 115);
+}
+
+.botones{
+    text-align: center;
+}
+
+.botones button{
+    margin-top: 100px;
+    border: 0 solid rgb(0, 0, 0);
+    width: 120px;
+    height: 44px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.botones .btn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(116, 115, 115);
+    cursor: pointer;
+}
+
+.botones .btn1{
+    background-color: #155AEA;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.planes{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 24%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.planes .plan{
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.planes .plan h2{
+    margin-top: 40px;
+}
+
+.planes .plan h3{
+    margin-top: 5px;
+    font-size: 13px;
+    width: 60%;
+    margin-inline: 20%;
+    color: rgb(116, 115, 115);
+}
+
+.planes .plan .moneda{
+    margin-top: 15px;
+    font-size: 13px;
+    width: 0px;
+    margin-inline: 42%;
+    color: rgb(116, 115, 115);
+}
+
+.planes .plan h1{
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+.planes .plan .fila{
+    margin-top: 50px;
+}
+
+.planes .plan img{
+    margin: -1%;
+    width: 14px;
+    height: 14px;
+
+}
+
+.planes .plan h4{
+    margin-top: 15px;
+    text-align: left;
+    margin-inline: 22%;
+    font-size: 13px;
+    width: 190px;
+    
+}
+
+.planes .plan button{
+    margin-top: 40px;
+    border: 0 solid rgb(0, 0, 0);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    color: #155AEA;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.planes .seleccion{
+    background-image: url("../images/fondo.PNG");
+    background-position: 50% 85%;
+    width: 320px;
+    height: 500px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: -15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.planes .seleccion h2{
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.planes .seleccion h3{
+    margin-top: 5px;
+    font-size: 13px;
+    width: 60%;
+    margin-inline: 20%;
+    color: rgb(255, 255, 255);
+}
+
+.planes .seleccion .moneda{
+    margin-top: 15px;
+    font-size: 13px;
+    width: 0px;
+    margin-inline: 42%;
+    color: rgb(255, 255, 255);
+}
+
+.planes .seleccion h1{
+    font-size: 30px;
+    margin-top: -10px;
+    color: rgb(255, 255, 255);
+}
+
+.planes .seleccion .cuadro{
+    background-color: #ffffff;
+    width: 250px;
+    height: 310px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    
+}
+
+.planes .seleccion .cuadro .lista{
+    background-color: #ffffff;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -28%);
+    width: 240px;
+    height: 200px;
+}
+.planes .seleccion img{
+    margin: -1%;
+    width: 14px;
+    height: 14px;
+
+}
+
+.planes .seleccion .cuadro .lista h4{
+    margin-top: 15px;
+    text-align: left;
+    margin-inline: 21%;
+    font-size: 13px;
+    width: 180px;
+    
+}
+
+.planes .seleccion button{
+    margin-top: 0px;
+    transform: translate(0%, 610%);
+    border: 0 solid rgb(0, 0, 0);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #155AEA;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
